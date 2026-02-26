@@ -183,6 +183,14 @@ function App() {
           ))}
         </div>
       </div>
+
+      {/* Easter Egg */}
+      <button
+        className="easter-egg-btn"
+        onClick={() => window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')}
+      >
+        Click here
+      </button>
     </div>
   );
 }
